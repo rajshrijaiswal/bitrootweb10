@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="container">
+<div class="row">
+  <div class="column">
+    <img src="image1.jpg" alt="building" width="400" height="400" margin="30px">
+    <p>Travel The The Modern and Ancient Beauty of Shanghai!</p>
+  </div>
+  <div class="column">
+    <img src="image2.jpg" alt="city"  width="400" height="400">
+    <p>Tokyo, city and capital of Tokyo to (metropolis) and of Japan.</p>
+  </div>
+  
+</div>
+<div class="column">
+    <img src="image3.jpg" alt="city"  width="400" height="400">
+    <p>Singapore, city-state located at the southern tip of the Malay Peninsula</p>
+  </div>
+  <div class="column">
+    <img src="image4.jpg" alt="city"  width="400" height="400">
+    <p>This article is about the capital city of England and the United Kingdom. </p>
+  </div>
+</div>
+
+</body>
+</html>
